@@ -14,6 +14,7 @@ body {
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
+    --background-decoration-color: #fff3e0;
     --accent-background-color: #f9f9f9;
 }
 
@@ -302,3 +303,47 @@ body {
     line-height: 1.6;
     color: var(--secondary-text-color);
 }
+.interests {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .interests__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .interests__item {
+    background-color: var(--accent-background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    color: var(--primary-text-color);
+    cursor: default;
+    transition: transform 0.3s ease;
+  }
+  
+  .interests__item:hover {
+    transform: scale(1.05);
+  }
+  
+  .interests__easter-egg {
+    background-color: var(--background-decoration-color);
+    color: var(--text-decoration-color);
+    font-weight: bold;
+    cursor: pointer;
+    border-color: var(--text-decoration-color);
+  }
+  
+  .interests__secret {
+    display: none;
+    margin-top: 20px;
+    font-style: italic;
+    color: var(--secondary-text-color);
+  }
+  
