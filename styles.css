@@ -14,6 +14,7 @@ body {
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
+    --accent-background-color: #f9f9f9;
 }
 
 .container {
@@ -269,4 +270,35 @@ body {
 
 .contact-info__block--center {
     align-items: center;
+}
+
+
+.life-experience {
+    padding: 40px 0;
+}
+
+
+.life-experience .experience__item {
+    margin-bottom: 24px;
+    padding: 16px;
+    border-left: 4px solid var(--text-decoration-color);
+    background-color: var(--accent-background-color);
+}
+
+.life-experience .experience__position {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: var(--primary-text-color);
+}
+
+.life-experience .experience__period {
+    font-style: italic;
+    color: var(--durability-text-color);
+    margin-bottom: 8px;
+}
+
+.life-experience .experience__description {
+    line-height: 1.6;
+    color: var(--secondary-text-color);
 }
