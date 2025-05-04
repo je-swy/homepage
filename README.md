@@ -27,11 +27,11 @@ This is my personal resume project built using semantic HTML and modern CSS. It 
 ## 📂 Project Structure
 
 📁 / (root)
-├── index.html # Main HTML file
-├── styles.css # Stylesheet
-├── /assets # Images
-├── script.js # Script 
-└── README.md # Project documentation
+├── index.html        # Main HTML file
+├── styles.css        # Stylesheet
+├── /assets           # Images
+├── script.js         # Script
+└── README.md         # Project documentation
 
 ---
 
