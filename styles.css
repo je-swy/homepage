@@ -14,6 +14,8 @@ body {
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
+    --background-decoration-color: #fff3e0;
+    --accent-background-color: #f9f9f9;
 }
 
 .container {
@@ -270,3 +272,78 @@ body {
 .contact-info__block--center {
     align-items: center;
 }
+
+
+.life-experience {
+    padding: 40px 0;
+}
+
+
+.life-experience .experience__item {
+    margin-bottom: 24px;
+    padding: 16px;
+    border-left: 4px solid var(--text-decoration-color);
+    background-color: var(--accent-background-color);
+}
+
+.life-experience .experience__position {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: var(--primary-text-color);
+}
+
+.life-experience .experience__period {
+    font-style: italic;
+    color: var(--durability-text-color);
+    margin-bottom: 8px;
+}
+
+.life-experience .experience__description {
+    line-height: 1.6;
+    color: var(--secondary-text-color);
+}
+.interests {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .interests__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .interests__item {
+    background-color: var(--accent-background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    color: var(--primary-text-color);
+    cursor: default;
+    transition: transform 0.3s ease;
+  }
+  
+  .interests__item:hover {
+    transform: scale(1.05);
+  }
+  
+  .interests__easter-egg {
+    background-color: var(--background-decoration-color);
+    color: var(--text-decoration-color);
+    font-weight: bold;
+    cursor: pointer;
+    border-color: var(--text-decoration-color);
+  }
+  
+  .interests__secret {
+    display: none;
+    margin-top: 20px;
+    font-style: italic;
+    color: var(--secondary-text-color);
+  }
+  
